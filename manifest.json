@@ -1,0 +1,11 @@
+{
+    "name": "休速",
+    "description": "Browser extension to conveniently create flashcards for Japanese vocabulary and kanji from any webpage.", 
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "hello.html",
+        "default_icon": "hello_extensions.png"
+    }
+
+}
