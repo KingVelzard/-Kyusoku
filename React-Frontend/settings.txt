@@ -1,0 +1,4 @@
+root: C:\Users\wicke\-Kyusoku\React-Frontend\ 
+path: C:\Program Files\nodejs 
+arch: 64 
+proxy: none

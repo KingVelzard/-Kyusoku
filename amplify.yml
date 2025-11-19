@@ -3,11 +3,12 @@ frontend:
   phases:
     preBuild:
       commands:
+        - echo "Current directory: $(pwd)"
+        - ls -la
         - cd React-Frontend/kyusoku-app
         - npm ci
     build:
       commands:
-        - cd React-Frontend/kyusoku-app
         - npm run build
   artifacts:
     baseDirectory: React-Frontend/kyusoku-app/build
@@ -15,4 +16,4 @@ frontend:
       - '**/*'
   cache:
     paths:
-      - React-Frontend/kyusoku-app/node_modules/**/*
+      - React-Frontend/kyusoku-app/node_modules/**/*  
